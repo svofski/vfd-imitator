@@ -1,5 +1,4 @@
-vfd-imitator
-~~~~~~~~~~~~
+# vfd-imitator
 
 Fake ИЛЦ2-12/8Л on a 256x64 OLED.
 
@@ -16,12 +15,12 @@ may render rp2040 unstable. Prefer using external 3.3V LDO from VIN.
 
 ```
 Display		|		PiPico Pin No. and name
-	GND		|		GND
-	VCC		|		VCC 	(3.3V, use separate LDO)
-	SCL		|		18		PIN_SPI_SCK 
-	SDA		|		19		PIN_SPI_MOSI
-	RST		|		6		PIN_RST
-	DC		|		7		PIN_DC
-	CS		|		17 		PIN_SPI_SS
+GND		|		GND
+VCC		|		VCC 		(3.3V, use separate LDO)
+SCL		|		18		PIN_SPI_SCK 
+SDA		|		19		PIN_SPI_MOSI
+RST		|		6		PIN_RST
+DC		|		7		PIN_DC
+CS		|		17 		PIN_SPI_SS
 ```
 
